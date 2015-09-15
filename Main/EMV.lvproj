@@ -59,7 +59,7 @@
 			<Item Name="TestInterface.lvclass" Type="LVClass" URL="../../res/classes/Tests/TestInterface/TestInterface.lvclass"/>
 			<Item Name="Burst.lvclass" Type="LVClass" URL="../../res/classes/Tests/Burst/Burst.lvclass"/>
 			<Item Name="HF-Felder.lvclass" Type="LVClass" URL="../../res/classes/Tests/HF-Felder/HF-Felder.lvclass"/>
-			<Item Name="Störaussendung.lvclass" Type="LVClass" URL="../../res/classes/tests/Störaussendung/Störaussendung.lvclass"/>
+			<Item Name="Stoeraussendung.lvclass" Type="LVClass" URL="../../res/classes/Tests/Stoeraussendung/Stoeraussendung.lvclass"/>
 			<Item Name="ESD.lvclass" Type="LVClass" URL="../../res/classes/Tests/ESD/ESD.lvclass"/>
 			<Item Name="Surge.lvclass" Type="LVClass" URL="../../res/classes/Tests/Surge/Surge.lvclass"/>
 			<Item Name="Spannungseinbruch.lvclass" Type="LVClass" URL="../../res/classes/Tests/Spannungseinbruch/Spannungseinbruch.lvclass"/>
