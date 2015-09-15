@@ -352,110 +352,100 @@
 				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
 			</Item>
-			<Item Name="Laufzeitmenue.rtm" Type="Document" URL="../../res/Laufzeitmenue.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EMV-Pruefung" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{7A1B068E-5B7A-407C-A206-89022BA0EC0C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{3E8FA23C-CCD2-4293-8D9A-E3EBA000218D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E2A36529-A14A-4E47-80BE-24E0DC1F9AD9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DC7E3313-7177-48FC-BFA8-EB4B664B283F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.DESY.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{7E0107BF-C324-44AF-B310-DF5C08F91C50}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{94679EDC-0AAD-4EDC-BAF2-63F60BA67542}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">EMV-Pruefung</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/H/sze/Bachelor Thesis/resourcen/Release</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9E2A3E0B-5ADA-431C-9BB7-F645C7FC10E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7D9A3A93-9DEA-48B5-9AF6-983FF5F70A4F}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EMV-Pruefung.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/H/sze/Bachelor Thesis/resourcen/Release/EMV-Pruefung.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/EMV-Pruefung.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/H/sze/Bachelor Thesis/resourcen/Release/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{29684B1A-A474-45AB-AD3B-05D7078A03A9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1A60A457-924B-4DC0-AA8B-E9A1285E59A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Datastructure/DataCreation.lvlib/Report init.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Utilities.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Devices</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/EMV-Test.lvlib</Property>
+				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Datastructure</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/TempHygro.lvlib</Property>
+				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Type Definitions</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Project Documentation</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Pdf/create Pdf.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Pdf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Utilities.lvlib/getAPPDATA.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/dlls</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Main.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/dlls</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Devices</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Datastructure</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Type Definitions</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Project Documentation</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/VI-Test.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_companyName" Type="Str">DESY</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">EMV-Pruefung</Property>
-				<Property Name="TgtF_internalName" Type="Str">EMV-Pruefung</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 DESY</Property>
-				<Property Name="TgtF_productName" Type="Str">EMV-Pruefung</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E3DB07AB-E447-4DEA-A5E1-6594E11B1CC3}</Property>
+				<Property Name="TgtF_internalName" Type="Str">EMV-Prüfprogramm</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Jan Scholz</Property>
+				<Property Name="TgtF_productName" Type="Str">EMC-Program</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{87DA2AA8-AAEE-4207-BE59-74484D480594}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EMV-Pruefung.exe</Property>
 			</Item>
 		</Item>
