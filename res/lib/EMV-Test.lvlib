@@ -5,10 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="General_Test.lvtest" Type="TestItem" URL="../../vis/General_Test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">EMV-Test.lvlib:General_Test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">9B009249-B7B5-A55F-1A34-D1D32EE1EA30</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">7AA18C79-9408-BCBE-1E60-FDF8241F0C0E</Property>
 	</Item>
 	<Item Name="General_Test.vi" Type="VI" URL="../../vis/General_Test.vi"/>
 	<Item Name="General_Test_interface.vi" Type="VI" URL="../../vis/General_Test_interface.vi"/>
+	<Item Name="greyout_buttons_from_referencearray.vi" Type="VI" URL="../greyout_buttons_from_referencearray.vi"/>
 	<Item Name="TestData.ctl" Type="VI" URL="../../../Main/controls/TestData.ctl"/>
 	<Item Name="TestStates.ctl" Type="VI" URL="../../../Main/controls/TestStates.ctl"/>
 	<Item Name="TimerStop.vi" Type="VI" URL="../../vis/TimerStop.vi"/>
