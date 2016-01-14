@@ -90,8 +90,9 @@
 		<Item Name="EMV-Test.lvlib" Type="Library" URL="../../res/lib/EMV-Test.lvlib"/>
 		<Item Name="TempHygro.lvlib" Type="Library" URL="../../res/lib/TempHygro.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Setup.vi" Type="VI" URL="../../res/tests/General_test/RSA5106A/Setup.vi"/>
+		<Item Name="setup.vi" Type="VI" URL="../../res/tests/TreeRep/setup.vi"/>
 		<Item Name="button_states.ctl" Type="VI" URL="../../res/lib/button_states.ctl"/>
+		<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>

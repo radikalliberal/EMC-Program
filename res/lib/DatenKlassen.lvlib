@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Device.lvclass" Type="LVClass" URL="../../classes/Datastructure/Device/Device.lvclass"/>
 	<Item Name="img.lvclass" Type="LVClass" URL="../../classes/Datastructure/Image/img.lvclass"/>
+	<Item Name="Norm.lvclass" Type="LVClass" URL="../../classes/Datastructure/Norm/Norm.lvclass"/>
 	<Item Name="Report.lvclass" Type="LVClass" URL="../../classes/Datastructure/Report/Report.lvclass"/>
-	<Item Name="Segment.lvclass" Type="LVClass" URL="../../classes/Datastructure/Segment/Segment.lvclass"/>
 	<Item Name="Setup.lvclass" Type="LVClass" URL="../../classes/Datastructure/Setup/Setup.lvclass"/>
 	<Item Name="Test.lvclass" Type="LVClass" URL="../../classes/Datastructure/Test/Test.lvclass"/>
 </Library>

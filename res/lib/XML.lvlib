@@ -5,10 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="createDeviceXmlElement.vi" Type="VI" URL="../../vis/createDeviceXmlElement.vi"/>
 	<Item Name="createImg.vi" Type="VI" URL="../../vis/createImg.vi"/>
+	<Item Name="createNorm.vi" Type="VI" URL="../../vis/createNorm.vi"/>
 	<Item Name="createReport.vi" Type="VI" URL="../../vis/createReport.vi"/>
 	<Item Name="createSegment.vi" Type="VI" URL="../../vis/createSegment.vi"/>
 	<Item Name="createSetupXmlElement.vi" Type="VI" URL="../../vis/createSetupXmlElement.vi"/>
-	<Item Name="createTest.vi" Type="VI" URL="../../vis/createTest.vi"/>
 	<Item Name="Generate XML String from Report Class.vi" Type="VI" URL="../../vis/Generate XML String from Report Class.vi"/>
 	<Item Name="Helper - Add New XML Tag (Parser).vi" Type="VI" URL="../../vis/Helper - Add New XML Tag (Parser).vi"/>
 	<Item Name="readAttributes.vi" Type="VI" URL="../../vis/readAttributes.vi"/>
