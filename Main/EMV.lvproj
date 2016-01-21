@@ -93,6 +93,12 @@
 		<Item Name="setup.vi" Type="VI" URL="../../res/tests/TreeRep/setup.vi"/>
 		<Item Name="button_states.ctl" Type="VI" URL="../../res/lib/button_states.ctl"/>
 		<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
+		<Item Name="DeviceAddEdit.vi" Type="VI" URL="../../res/vis/DeviceAddEdit.vi"/>
+		<Item Name="SetupData.ctl" Type="VI" URL="../../res/vis/SetupData.ctl"/>
+		<Item Name="extractTags.vi" Type="VI" URL="../../res/vis/extractTags.vi"/>
+		<Item Name="SetupData2.ctl" Type="VI" URL="../../res/vis/SetupData2.ctl"/>
+		<Item Name="getImgAttributesFromTree.vi" Type="VI" URL="../../res/lib/getImgAttributesFromTree.vi"/>
+		<Item Name="Bildunterschrifft.vi" Type="VI" URL="../../res/vis/Bildunterschrifft.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
