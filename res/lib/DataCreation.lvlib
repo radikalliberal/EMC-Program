@@ -5,18 +5,19 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="addDevToTree.vi" Type="VI" URL="../addDevToTree.vi"/>
 	<Item Name="addImgToTree.vi" Type="VI" URL="../addImgToTree.vi"/>
+	<Item Name="Bildunterschrifft.vi" Type="VI" URL="../../vis/Bildunterschrifft.vi"/>
+	<Item Name="DeviceAddEdit.vi" Type="VI" URL="../../vis/DeviceAddEdit.vi"/>
 	<Item Name="getDevAttributesFromTree.vi" Type="VI" URL="../getDevAttributesFromTree.vi"/>
 	<Item Name="new Norm.vi" Type="VI" URL="../../vis/new Norm.vi"/>
 	<Item Name="new Test.vi" Type="VI" URL="../../vis/new Test.vi"/>
 	<Item Name="Report init interface.vi" Type="VI" URL="../../vis/Report init interface.vi"/>
 	<Item Name="Report init.vi" Type="VI" URL="../../vis/Report init.vi"/>
+	<Item Name="SetupConvertTreeToSetupObj.vi" Type="VI" URL="../SetupConvertTreeToSetupObj.vi"/>
 	<Item Name="SetupCreateObjectFromTree.vi" Type="VI" URL="../SetupCreateObjectFromTree.vi"/>
+	<Item Name="SetupData2.ctl" Type="VI" URL="../../vis/SetupData2.ctl"/>
 	<Item Name="setupDevPopulateTree.vi" Type="VI" URL="../setupDevPopulateTree.vi"/>
 	<Item Name="setupImgPopulateTree.vi" Type="VI" URL="../setupImgPopulateTree.vi"/>
 	<Item Name="Test bearbeiten.vi" Type="VI" URL="../../vis/Test bearbeiten.vi"/>
-	<Item Name="Untitled 5 (SubVI).vi" Type="VI" URL="../Untitled 5 (SubVI).vi"/>
-	<Item Name="Untitled 7 (SubVI).vi" Type="VI" URL="../Untitled 7 (SubVI).vi"/>
-	<Item Name="Untitled 8 (SubVI).vi" Type="VI" URL="../Untitled 8 (SubVI).vi"/>
 	<Item Name="Versuchsaufbau anlegen.vi" Type="VI" URL="../../vis/Versuchsaufbau anlegen.vi"/>
 	<Item Name="Versuchsaufbau bearbeiten.vi" Type="VI" URL="../../vis/Versuchsaufbau bearbeiten.vi"/>
 </Library>
