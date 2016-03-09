@@ -93,6 +93,8 @@
 		<Item Name="setup.vi" Type="VI" URL="../../res/tests/TreeRep/setup.vi"/>
 		<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
 		<Item Name="SetupData.ctl" Type="VI" URL="../../res/vis/SetupData.ctl"/>
+		<Item Name="generalTestStates.ctl" Type="VI" URL="../controls/generalTestStates.ctl"/>
+		<Item Name="xhochy.vi" Type="VI" URL="../lib/xhochy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -358,8 +360,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="tkrsa6100 Quote Stripper.vi" Type="VI" URL="/&lt;instrlib&gt;/tkrsa6100/tkrsa6100U.llb/tkrsa6100 Quote Stripper.vi"/>
 			</Item>
-			<Item Name="read.vi" Type="VI" URL="/H/sze/Bachelor Thesis/resourcen/RSA5100/tkrsa6100_Labviewtreiber/read.vi"/>
-			<Item Name="Errorchecker.vi" Type="VI" URL="/H/sze/Bachelor Thesis/resourcen/RSA5100/tkrsa6100_Labviewtreiber/Errorchecker.vi"/>
 			<Item Name="AddDeviceStates.ctl" Type="VI" URL="../../res/vis/AddDeviceStates.ctl"/>
 			<Item Name="devCluster.ctl" Type="VI" URL="../../res/vis/devCluster.ctl"/>
 		</Item>
