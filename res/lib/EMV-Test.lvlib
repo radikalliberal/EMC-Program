@@ -6,11 +6,12 @@
 	<Item Name="button_states.ctl" Type="VI" URL="../button_states.ctl"/>
 	<Item Name="General_Test.lvtest" Type="TestItem" URL="../../vis/General_Test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">EMV-Test.lvlib:General_Test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">7AA18C79-9408-BCBE-1E60-FDF8241F0C0E</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">21D10426-C2B2-5683-ADF7-4D1C96C4F82E</Property>
 	</Item>
 	<Item Name="General_Test.vi" Type="VI" URL="../../vis/General_Test.vi"/>
 	<Item Name="General_Test_interface.vi" Type="VI" URL="../../vis/General_Test_interface.vi"/>
 	<Item Name="greyout_buttons_from_referencearray.vi" Type="VI" URL="../greyout_buttons_from_referencearray.vi"/>
+	<Item Name="selectDevice.vi" Type="VI" URL="../selectDevice.vi"/>
 	<Item Name="TestData.ctl" Type="VI" URL="../../../Main/controls/TestData.ctl"/>
 	<Item Name="TestStates.ctl" Type="VI" URL="../../../Main/controls/TestStates.ctl"/>
 	<Item Name="TimerStop.vi" Type="VI" URL="../../vis/TimerStop.vi"/>
