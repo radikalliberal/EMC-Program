@@ -6,7 +6,7 @@
 	<Item Name="button_states.ctl" Type="VI" URL="../button_states.ctl"/>
 	<Item Name="General_Test.lvtest" Type="TestItem" URL="../../vis/General_Test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">EMV-Test.lvlib:General_Test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">21D10426-C2B2-5683-ADF7-4D1C96C4F82E</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">A75DE212-3235-F7B7-60A7-427D953750F3</Property>
 	</Item>
 	<Item Name="General_Test.vi" Type="VI" URL="../../vis/General_Test.vi"/>
 	<Item Name="General_Test_interface.vi" Type="VI" URL="../../vis/General_Test_interface.vi"/>
@@ -14,5 +14,6 @@
 	<Item Name="selectDevice.vi" Type="VI" URL="../selectDevice.vi"/>
 	<Item Name="TestData.ctl" Type="VI" URL="../../../Main/controls/TestData.ctl"/>
 	<Item Name="TestStates.ctl" Type="VI" URL="../../../Main/controls/TestStates.ctl"/>
+	<Item Name="TestToJson.vi" Type="VI" URL="../TestToJson.vi"/>
 	<Item Name="TimerStop.vi" Type="VI" URL="../../vis/TimerStop.vi"/>
 </Library>

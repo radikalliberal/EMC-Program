@@ -94,6 +94,9 @@
 		<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
 		<Item Name="SetupData.ctl" Type="VI" URL="../../res/vis/SetupData.ctl"/>
 		<Item Name="generalTestStates.ctl" Type="VI" URL="../controls/generalTestStates.ctl"/>
+		<Item Name="choosetest.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetest.ctl"/>
+		<Item Name="choosetestdata.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetestdata.ctl"/>
+		<Item Name="Parameters.ctl" Type="VI" URL="../../res/classes/Tests/Surge/Parameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -355,7 +358,10 @@
 				<Item Name="DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi"/>
 				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
+			<Item Name="jsonToTest.vi" Type="VI" URL="../../../../../Public/Pictures/Sample Pictures/jsonToTest.vi"/>
+			<Item Name="TestsToJson.vi" Type="VI" URL="../../res/lib/TestsToJson.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EMV-Pruefung" Type="EXE">

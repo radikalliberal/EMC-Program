@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Burst_test.vi" Type="VI" URL="../../classes/Tests/Burst/Burst_test.vi"/>
 	<Item Name="DatastructureTest.vi" Type="VI" URL="../../vis/DatastructureTest.vi"/>
+	<Item Name="manuitest.vi" Type="VI" URL="../../tests/Testinterfaces/manuitest.vi"/>
 	<Item Name="Test_Burst_Commandlist.vi" Type="VI" URL="../../vis/Test_Burst_Commandlist.vi"/>
 	<Item Name="Test_Surge_Commandlist.vi" Type="VI" URL="../../vis/Test_Surge_Commandlist.vi"/>
 	<Item Name="Test_xmlread.vi" Type="VI" URL="../../vis/Test_xmlread.vi"/>
