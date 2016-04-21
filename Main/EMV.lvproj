@@ -97,6 +97,7 @@
 		<Item Name="choosetest.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetest.ctl"/>
 		<Item Name="choosetestdata.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetestdata.ctl"/>
 		<Item Name="Parameters.ctl" Type="VI" URL="../../res/classes/Tests/Surge/Parameters.ctl"/>
+		<Item Name="Untitled 4" Type="VI"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
