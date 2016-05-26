@@ -9,6 +9,7 @@
 	<Item Name="Bildunterschrifft.vi" Type="VI" URL="../../vis/Bildunterschrifft.vi"/>
 	<Item Name="devCluster.ctl" Type="VI" URL="../../vis/devCluster.ctl"/>
 	<Item Name="DeviceAddEdit.vi" Type="VI" URL="../../vis/DeviceAddEdit.vi"/>
+	<Item Name="editDevPopup.vi" Type="VI" URL="../../vis/editDevPopup.vi"/>
 	<Item Name="getDevAttributesFromTree.vi" Type="VI" URL="../getDevAttributesFromTree.vi"/>
 	<Item Name="new Norm.vi" Type="VI" URL="../../vis/new Norm.vi"/>
 	<Item Name="new Test.vi" Type="VI" URL="../../vis/new Test.vi"/>
