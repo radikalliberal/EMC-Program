@@ -54,6 +54,7 @@
 			<Item Name="Tektronix RSA5106A.lvclass" Type="LVClass" URL="../../res/classes/Devices/Tektronix RSA5106A/Tektronix RSA5106A.lvclass"/>
 			<Item Name="DeviceInterface.lvclass" Type="LVClass" URL="../../res/classes/Devices/DeviceInterface/DeviceInterface.lvclass"/>
 			<Item Name="Devices.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/Devices.ctl"/>
+			<Item Name="ESD Pistol.lvclass" Type="LVClass" URL="../../res/vis/ESD Pistol.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="TestInterface.lvclass" Type="LVClass" URL="../../res/classes/Tests/TestInterface/TestInterface.lvclass"/>
@@ -98,6 +99,8 @@
 		<Item Name="choosetestdata.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetestdata.ctl"/>
 		<Item Name="Parameters.ctl" Type="VI" URL="../../res/classes/Tests/Surge/Parameters.ctl"/>
 		<Item Name="Tabs.ctl" Type="VI" URL="../../res/vis/Tabs.ctl"/>
+		<Item Name="TestOderProtokollUi.vi" Type="VI" URL="../../res/vis/TestOderProtokollUi.vi"/>
+		<Item Name="TestOderProtokollUI_interface.vi" Type="VI" URL="../../res/vis/TestOderProtokollUI_interface.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
