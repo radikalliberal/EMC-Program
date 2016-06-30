@@ -101,6 +101,10 @@
 		<Item Name="Tabs.ctl" Type="VI" URL="../../res/vis/Tabs.ctl"/>
 		<Item Name="TestOderProtokollUi.vi" Type="VI" URL="../../res/vis/TestOderProtokollUi.vi"/>
 		<Item Name="TestOderProtokollUI_interface.vi" Type="VI" URL="../../res/vis/TestOderProtokollUI_interface.vi"/>
+		<Item Name="newTest.vi" Type="VI" URL="../../res/vis/newTest.vi"/>
+		<Item Name="buttonVisibility.vi" Type="VI" URL="../../res/vis/buttonVisibility.vi"/>
+		<Item Name="newTest_interface.vi" Type="VI" URL="../../res/vis/newTest_interface.vi"/>
+		<Item Name="Setupbearbeiten_interface.vi" Type="VI" URL="../../res/vis/Setupbearbeiten_interface.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
