@@ -385,7 +385,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D9A3A93-9DEA-48B5-9AF6-983FF5F70A4F}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EMV-Pruefung.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/EMV-Pruefung.exe</Property>
