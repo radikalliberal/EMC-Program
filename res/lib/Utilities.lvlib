@@ -6,5 +6,5 @@
 	<Item Name="discardCommandsWithBadChecksum.vi" Type="VI" URL="../../vis/discardCommandsWithBadChecksum.vi"/>
 	<Item Name="fillWithZeros.vi" Type="VI" URL="../../vis/fillWithZeros.vi"/>
 	<Item Name="getAPPDATA.vi" Type="VI" URL="../../vis/getAPPDATA.vi"/>
-	<Item Name="xhochy.vi" Type="VI" URL="../../../Main/lib/xhochy.vi"/>
+	<Item Name="xhochy.vi" Type="VI" URL="../xhochy.vi"/>
 </Library>
