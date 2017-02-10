@@ -385,7 +385,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D9A3A93-9DEA-48B5-9AF6-983FF5F70A4F}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EMV-Pruefung.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/EMV-Pruefung.exe</Property>
@@ -481,7 +481,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BA1409-130A-49D5-B477-7A17AAEFC06B}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Datentest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Datentest/Datentest.exe</Property>
