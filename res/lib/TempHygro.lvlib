@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="hygro.vi" Type="VI" URL="../../vis/hygro.vi"/>
-	<Item Name="temp_hygro_main.vi" Type="VI" URL="../../vis/temp_hygro_main.vi"/>
 	<Item Name="temp_hygro(mock).vi" Type="VI" URL="../../vis/temp_hygro(mock).vi"/>
+	<Item Name="temp_hygro_main.vi" Type="VI" URL="../../vis/temp_hygro_main.vi"/>
 	<Item Name="temperatur.vi" Type="VI" URL="../../vis/temperatur.vi"/>
 </Library>

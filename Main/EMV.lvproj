@@ -41,6 +41,13 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
+			<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
+			<Item Name="SetupData.ctl" Type="VI" URL="../../res/vis/SetupData.ctl"/>
+			<Item Name="generalTestStates.ctl" Type="VI" URL="../controls/generalTestStates.ctl"/>
+			<Item Name="choosetest.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetest.ctl"/>
+			<Item Name="choosetestdata.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetestdata.ctl"/>
+			<Item Name="Parameters.ctl" Type="VI" URL="../../res/classes/Tests/Surge/Parameters.ctl"/>
+			<Item Name="Tabs.ctl" Type="VI" URL="../../res/vis/Tabs.ctl"/>
 		</Item>
 		<Item Name="Datastructure" Type="Folder">
 			<Item Name="DatenKlassen.lvlib" Type="Library" URL="../../res/lib/DatenKlassen.lvlib"/>
@@ -65,6 +72,7 @@
 			<Item Name="ESD.lvclass" Type="LVClass" URL="../../res/classes/Tests/ESD/ESD.lvclass"/>
 			<Item Name="Surge.lvclass" Type="LVClass" URL="../../res/classes/Tests/Surge/Surge.lvclass"/>
 			<Item Name="Tests.ctl" Type="VI" URL="../../res/classes/Tests/TestInterface/Tests.ctl"/>
+			<Item Name="createTestObject.vi" Type="VI" URL="../../res/vis/createTestObject.vi"/>
 		</Item>
 		<Item Name="dlls" Type="Folder">
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -86,26 +94,15 @@
 		<Item Name="Pdf" Type="Folder">
 			<Item Name="create Pdf.vi" Type="VI" URL="../../res/vis/create Pdf.vi"/>
 		</Item>
+		<Item Name="includes" Type="Folder" URL="../../includes">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="VI-Test.lvlib" Type="Library" URL="../../res/lib/VI-Test.lvlib"/>
 		<Item Name="Utilities.lvlib" Type="Library" URL="../../res/lib/Utilities.lvlib"/>
 		<Item Name="EMV-Test.lvlib" Type="Library" URL="../../res/lib/EMV-Test.lvlib"/>
 		<Item Name="TempHygro.lvlib" Type="Library" URL="../../res/lib/TempHygro.lvlib"/>
+		<Item Name="Dialogs.lvlib" Type="Library" URL="../../res/lib/Dialogs.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Setup.vi" Type="VI" URL="../../res/tests/General_test/RSA5106A/Setup.vi"/>
-		<Item Name="TreeItemsTags.ctl" Type="VI" URL="../../res/vis/TreeItemsTags.ctl"/>
-		<Item Name="SetupData.ctl" Type="VI" URL="../../res/vis/SetupData.ctl"/>
-		<Item Name="generalTestStates.ctl" Type="VI" URL="../controls/generalTestStates.ctl"/>
-		<Item Name="choosetest.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetest.ctl"/>
-		<Item Name="choosetestdata.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/choosetestdata.ctl"/>
-		<Item Name="Parameters.ctl" Type="VI" URL="../../res/classes/Tests/Surge/Parameters.ctl"/>
-		<Item Name="Tabs.ctl" Type="VI" URL="../../res/vis/Tabs.ctl"/>
-		<Item Name="TestOderProtokollUi.vi" Type="VI" URL="../../res/vis/TestOderProtokollUi.vi"/>
-		<Item Name="TestOderProtokollUI_interface.vi" Type="VI" URL="../../res/vis/TestOderProtokollUI_interface.vi"/>
-		<Item Name="newTest.vi" Type="VI" URL="../../res/vis/newTest.vi"/>
-		<Item Name="buttonVisibility.vi" Type="VI" URL="../../res/vis/buttonVisibility.vi"/>
-		<Item Name="newTest_interface.vi" Type="VI" URL="../../res/vis/newTest_interface.vi"/>
-		<Item Name="Setupbearbeiten_interface.vi" Type="VI" URL="../../res/vis/Setupbearbeiten_interface.vi"/>
-		<Item Name="createTestObject.vi" Type="VI" URL="../../res/vis/createTestObject.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -382,21 +379,27 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/scholzj/Desktop/EMC-Program-Build</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D9A3A93-9DEA-48B5-9AF6-983FF5F70A4F}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EMV-Pruefung.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/EMV-Pruefung.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/scholzj/Desktop/EMC-Program-Build/EMV-Pruefung.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/waeis/Desktop/EMC-Program-Build/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/scholzj/Desktop/EMC-Program-Build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{05EA4850-9B2C-4D27-A936-4E0E39B2403A}</Property>
+				<Property Name="Destination[2].destName" Type="Str">lib</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/scholzj/Desktop/EMC-Program-Build/lib</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">oben</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/scholzj/Desktop/EMC-Program-Build</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A4D8A784-7617-4819-BA21-89851940426C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -417,6 +420,27 @@
 				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Dialogs.lvlib</Property>
+				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">Library</Property>
+				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/includes</Property>
+				<Property Name="Source[14].newName" Type="Str">.\lib\</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/includes/data</Property>
+				<Property Name="Source[15].type" Type="Str">Container</Property>
+				<Property Name="Source[16].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/includes/lib</Property>
+				<Property Name="Source[16].type" Type="Str">Container</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/includes/pdfpruefbericht.jar</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Pdf</Property>
@@ -457,53 +481,13 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 				<Property Name="TgtF_companyName" Type="Str">DESY</Property>
 				<Property Name="TgtF_internalName" Type="Str">EMV-Prüfprogramm</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Jan Scholz</Property>
 				<Property Name="TgtF_productName" Type="Str">EMC-Program</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{87DA2AA8-AAEE-4207-BE59-74484D480594}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EMV-Pruefung.exe</Property>
-			</Item>
-			<Item Name="My Application" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{53DB0143-E923-428E-9946-41E14125D1BE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{DFD771DF-99D0-48F9-8883-819B9270E6A1}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.DESY.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{03723594-2711-4FD7-85A5-607A59C8B575}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Datentest</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{D6BA1409-130A-49D5-B477-7A17AAEFC06B}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Datentest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Datentest/Datentest.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Datentest/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{05EA4850-9B2C-4D27-A936-4E0E39B2403A}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VI-Test.lvlib/DatastructureTest.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">DESY</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 DESY</Property>
-				<Property Name="TgtF_productName" Type="Str">My Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7E93FFE9-7A82-4F86-896C-28AB2642C873}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Datentest.exe</Property>
 			</Item>
 		</Item>
 	</Item>
