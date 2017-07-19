@@ -11,6 +11,7 @@
 	<Item Name="General_Test.vi" Type="VI" URL="../../vis/General_Test.vi"/>
 	<Item Name="General_Test_interface.vi" Type="VI" URL="../../vis/General_Test_interface.vi"/>
 	<Item Name="greyout_buttons_from_referencearray.vi" Type="VI" URL="../greyout_buttons_from_referencearray.vi"/>
+	<Item Name="OpenReadWriteCloseTestClass4.vi" Type="VI" URL="../OpenReadWriteCloseTestClass4.vi"/>
 	<Item Name="readSettings.vi" Type="VI" URL="../../classes/Devices/Tektronix RSA5106A/readSettings.vi"/>
 	<Item Name="selectDevice.vi" Type="VI" URL="../selectDevice.vi"/>
 	<Item Name="setunitfornumber.vi" Type="VI" URL="../setunitfornumber.vi"/>

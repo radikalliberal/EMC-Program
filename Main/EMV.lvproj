@@ -62,6 +62,7 @@
 			<Item Name="Devices.ctl" Type="VI" URL="../../res/classes/Devices/DeviceInterface/Devices.ctl"/>
 			<Item Name="ESD Pistol.lvclass" Type="LVClass" URL="../../res/vis/ESD Pistol.lvclass"/>
 			<Item Name="CEG4500.lvclass" Type="LVClass" URL="../../res/classes/Devices/CEG4500/CEG4500.lvclass"/>
+			<Item Name="Class 4.lvclass" Type="LVClass" URL="../../res/classes/Devices/Class4/Class 4.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Spannungseinbruch.lvclass" Type="LVClass" URL="../../res/classes/Tests/Spannungseinbruch/Spannungseinbruch.lvclass"/>
@@ -73,6 +74,7 @@
 			<Item Name="Surge.lvclass" Type="LVClass" URL="../../res/classes/Tests/Surge/Surge.lvclass"/>
 			<Item Name="Tests.ctl" Type="VI" URL="../../res/classes/Tests/TestInterface/Tests.ctl"/>
 			<Item Name="createTestObject.vi" Type="VI" URL="../../res/vis/createTestObject.vi"/>
+			<Item Name="TestTest.lvclass" Type="LVClass" URL="../../res/classes/Tests/TestTest/TestTest.lvclass"/>
 		</Item>
 		<Item Name="dlls" Type="Folder">
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
